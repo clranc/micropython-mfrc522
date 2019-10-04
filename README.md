@@ -25,9 +25,9 @@ I used the following pins for my setup:
 | cs        | 16           | "GP14"         |Labeled SDA on most RFID-RC522 boards |
 
 Note for the hardware spi on the esp8266 the sck, mosi, and miso pins don't need to be specified for initalization,
-only spiblk needs to be set to 1. In software mode they will need to be specified and spblk can be left unset.
+only spiblk needs to be set to 1. In software mode they will need to be specified and spiblk can be left unset.
 
-Now enter the REPL you could run one of the two exmaples: 
+Now enter the REPL you could run one of the two examples: 
 
 For detecting, authenticating and reading from a card:
  
